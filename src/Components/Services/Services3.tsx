@@ -1,9 +1,8 @@
 import ServiceCard1 from '../Card/ServiceCard1';
-import { Link } from 'react-router';
+import { useTranslation } from "react-i18next";
 
 const Services3 = () => {
-
-           const bgImage = '/assets/img/feature-item-bg.svg';
+    const { t } = useTranslation();
 
     return (
  <section className="position-relative">
@@ -11,13 +10,10 @@ const Services3 = () => {
       <div className="container">
 
         <div className="cs_features_items_wrapper position-relative z-1">
-          <div className="cs_feature_item cs_radius_20 cs_bg_filed" style={{ backgroundImage: `url(${bgImage})`}}>
-            <h3 className="cs_fs_36 cs_semibold cs_white_color cs_mb_40">See more and get visibility <br/> for your business</h3>
-            <Link to="/contact" aria-label="Get started button" className="cs_btn cs_style_1 cs_fs_14 cs_bold cs_white_color text-uppercase">
-            <span>Get Started</span>
+            <a href={`https://wa.me/962792386318?text=${encodeURIComponent(t('whatsapp_message'))}`} target="_blank" rel="noopener noreferrer" aria-label="Get started button" className="cs_btn cs_style_1 cs_fs_14 cs_bold cs_white_color text-uppercase">
+            <span>{t('hero_get_started')}</span>
             <span className="cs_btn_icon"><i className="bi bi-arrow-right"></i></span>
-            </Link>
-          </div>
+            </a>
 
           <ServiceCard1
             addclass="cs_bg_00"
@@ -30,7 +26,6 @@ const Services3 = () => {
                 "Feedback &  Improvement"
             ]}
             btnname="Read More"
-            btnurl="/service/service-details"
           ></ServiceCard1>
 
           <ServiceCard1
@@ -44,7 +39,6 @@ const Services3 = () => {
                 "Feedback &  Improvement"
             ]}
             btnname="Read More"
-            btnurl="/service/service-details"
           ></ServiceCard1>
 
           <ServiceCard1
@@ -58,7 +52,6 @@ const Services3 = () => {
                 "Feedback &  Improvement"
             ]}
             btnname="Read More"
-            btnurl="/service/service-details"
           ></ServiceCard1>
 
           <ServiceCard1
@@ -72,7 +65,6 @@ const Services3 = () => {
                 "Feedback &  Improvement"
             ]}
             btnname="Read More"
-            btnurl="/service/service-details"
           ></ServiceCard1>
 
         </div>
