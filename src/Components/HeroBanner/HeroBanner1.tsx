@@ -3,7 +3,7 @@ import { useTranslation } from "react-i18next";
 const HeroBanner1 = () => {
     const { t } = useTranslation();
     const bgImage = '/assets/img/hero-bg-2.jpg';
-    const whatsappNumber = "962792386318";
+    const whatsappNumber = "96897453111";
     const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(t('whatsapp_message'))}`;
 
     return (

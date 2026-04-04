@@ -3,7 +3,7 @@ import { useTranslation } from "react-i18next";
 const Story1 = () => {
     const { t } = useTranslation();
     const bgImage = 'https://images.unsplash.com/photo-1522071823991-b1ae5e6a3098?q=80&w=1600&auto=format&fit=crop';
-    const whatsappUrl = `https://wa.me/962792386318?text=${encodeURIComponent(t('cta_pro_whatsapp_message'))}`;
+    const whatsappUrl = `https://wa.me/96897453111?text=${encodeURIComponent(t('cta_pro_whatsapp_message'))}`;
 
     return (
     <section>

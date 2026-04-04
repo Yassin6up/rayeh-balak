@@ -9,7 +9,7 @@ export default function Header1({ variant }:{ variant?: string }) {
   const [isSticky, setIsSticky] = useState<string>("");
   const [prevScrollPos, setPrevScrollPos] = useState<number>(0);
 
-  const whatsappNumber = "962792386318";
+  const whatsappNumber = "96897453111";
   const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(t('whatsapp_message'))}`;
 
   const changeLanguage = (lng: string) => {

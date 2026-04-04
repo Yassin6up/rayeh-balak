@@ -4,7 +4,7 @@ import { useTranslation } from "react-i18next";
 const Services1 = () => {
     const { t } = useTranslation();
     const bgImage = '/assets/img/feature-item-bg.svg';
-    const whatsappNumber = "962792386318";
+    const whatsappNumber = "96897453111";
     const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(t('whatsapp_message'))}`;
 
     return (
@@ -33,10 +33,10 @@ const Services1 = () => {
             serviceicon="/assets/img/icons/service-icon-1.svg"
             title={t('service_strategy_title')}
             featureList={[
-                "Marketing strategy planning",
-                "Market research & analysis",
-                "Brand positioning",
-                "Marketing audits"
+                t('feature_strategy_1'),
+                t('feature_strategy_2'),
+                t('feature_strategy_3'),
+                t('feature_strategy_4')
             ]}
             btnname={t('read_more')}
           />
@@ -46,10 +46,10 @@ const Services1 = () => {
             serviceicon="/assets/img/icons/service-icon-2.svg"
             title={t('service_branding_title')}
             featureList={[
-                "Logo & Visual Identity",
-                "Brand Guidelines",
-                "Packaging Design",
-                "Rebranding Services"
+                t('feature_branding_1'),
+                t('feature_branding_2'),
+                t('feature_branding_3'),
+                t('feature_branding_4')
             ]}
             btnname={t('read_more')}
           />
@@ -59,10 +59,10 @@ const Services1 = () => {
             serviceicon="/assets/img/icons/service-icon-3.svg"
             title={t('service_social_title')}
             featureList={[
-                "Strategy & Planning",
-                "Account Management",
-                "Content Creation (Reels/Graphics)",
-                "Community Management"
+                t('feature_social_1'),
+                t('feature_social_2'),
+                t('feature_social_3'),
+                t('feature_social_4')
             ]}
             btnname={t('read_more')}
           />
@@ -72,10 +72,10 @@ const Services1 = () => {
             serviceicon="/assets/img/icons/service-icon-4.svg"
             title={t('service_seo_title')}
             featureList={[
-                "On-page & Off-page SEO",
-                "Technical SEO & Site Speed",
-                "Local SEO (GBP Optimization)",
-                "Ongoing SEO Audits"
+                t('feature_seo_1'),
+                t('feature_seo_2'),
+                t('feature_seo_3'),
+                t('feature_seo_4')
             ]}
             btnname={t('read_more')}
           />
@@ -85,10 +85,10 @@ const Services1 = () => {
             serviceicon="/assets/img/icons/service-icon-5.svg"
             title={t('service_ppc_title')}
             featureList={[
-                "Google Ads (Search/Display)",
-                "Social Media Ads",
-                "Retargeting Campaigns",
-                "Conversion Tracking"
+                t('feature_ppc_1'),
+                t('feature_ppc_2'),
+                t('feature_ppc_3'),
+                t('feature_ppc_4')
             ]}
             btnname={t('read_more')}
           />
@@ -98,10 +98,10 @@ const Services1 = () => {
             serviceicon="/assets/img/icons/code-icon.svg"
             title={t('service_dev_title')}
             featureList={[
-                "Website & Mobile App Design",
-                "Landing Page Optimization",
-                "UX/UI Design & CRO",
-                "Maintenance & Hosting"
+                t('feature_dev_1'),
+                t('feature_dev_2'),
+                t('feature_dev_3'),
+                t('feature_dev_4')
             ]}
             btnname={t('read_more')}
           />
@@ -111,10 +111,10 @@ const Services1 = () => {
             serviceicon="/assets/img/icons/service-icon-6.svg"
             title={t('service_photo_title')}
             featureList={[
-                "High-Quality Product Photos",
-                "Product Video Shoots",
-                "Editing & Post-Production",
-                "Branding Shoots"
+                t('feature_photo_1'),
+                t('feature_photo_2'),
+                t('feature_photo_3'),
+                t('feature_photo_4')
             ]}
             btnname={t('read_more')}
           />
@@ -124,10 +124,10 @@ const Services1 = () => {
             serviceicon="/assets/img/icons/automation.svg"
             title={t('service_advanced_title')}
             featureList={[
-                "Chatbot Creation",
-                "Conversational Marketing",
-                "AI Marketing Tools",
-                "Marketing Automation"
+                t('feature_advanced_1'),
+                t('feature_advanced_2'),
+                t('feature_advanced_3'),
+                t('feature_advanced_4')
             ]}
             btnname={t('read_more')}
           />

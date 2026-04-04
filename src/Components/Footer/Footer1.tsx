@@ -13,17 +13,17 @@ const Footer1 = () => {
             <li>
               <span className="cs_location_icon cs_center cs_theme_color_4 cs_radius_100">
               <i className="bi bi-telephone-fill"></i></span>
-              <a href="tel:+962792386318" aria-label="Make a call link">+962 7 9238 6318</a>
+              <a href="tel:+96897453111" aria-label="Make a call link">+968 9745 3111</a>
             </li>
             <li>
               <span className="cs_location_icon cs_center cs_theme_color_4 cs_radius_100">
              <i className="bi bi-envelope-fill"></i></span>
-              <a href="mailto:info@rayyeehbalak.com" aria-label="Send mail link">info@rayyeehbalak.com</a>
+              <a href="mailto:info@promarkly.com" aria-label="Send mail link">info@promarkly.com</a>
             </li>
             <li>
               <span className="cs_location_icon cs_center cs_theme_color_4 cs_radius_100">
               <i className="bi bi-geo-alt-fill"></i></span>
-              <p className="mb-0">Jordan.</p>
+              <p className="mb-0">Oman.</p>
             </li>
           </ul>
         </div>

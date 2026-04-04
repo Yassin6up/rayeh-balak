@@ -2,7 +2,7 @@ import { useTranslation } from "react-i18next";
 
 const ServiceCard1 = ({addclass,serviceicon,title,featureList,btnname} : { addclass?: string; serviceicon: string; title: string; featureList: string[]; btnname: string }) => {
     const { t } = useTranslation();
-    const whatsappNumber = "962792386318";
+    const whatsappNumber = "96897453111";
     const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(t('whatsapp_message'))}`;
 
     return (

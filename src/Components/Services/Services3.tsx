@@ -10,7 +10,7 @@ const Services3 = () => {
       <div className="container">
 
         <div className="cs_features_items_wrapper position-relative z-1">
-            <a href={`https://wa.me/962792386318?text=${encodeURIComponent(t('whatsapp_message'))}`} target="_blank" rel="noopener noreferrer" aria-label="Get started button" className="cs_btn cs_style_1 cs_fs_14 cs_bold cs_white_color text-uppercase">
+            <a href={`https://wa.me/96897453111?text=${encodeURIComponent(t('whatsapp_message'))}`} target="_blank" rel="noopener noreferrer" aria-label="Get started button" className="cs_btn cs_style_1 cs_fs_14 cs_bold cs_white_color text-uppercase">
             <span>{t('hero_get_started')}</span>
             <span className="cs_btn_icon"><i className="bi bi-arrow-right"></i></span>
             </a>
