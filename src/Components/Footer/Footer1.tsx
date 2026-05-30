@@ -18,7 +18,7 @@ const Footer1 = () => {
             <li>
               <span className="cs_location_icon cs_center cs_theme_color_4 cs_radius_100">
              <i className="bi bi-envelope-fill"></i></span>
-              <a href="mailto:info@promarkly.com" aria-label="Send mail link">info@promarkly.com</a>
+              <a href="mailto:info@smartguide.com" aria-label="Send mail link">info@smartguide.com</a>
             </li>
             <li>
               <span className="cs_location_icon cs_center cs_theme_color_4 cs_radius_100">
